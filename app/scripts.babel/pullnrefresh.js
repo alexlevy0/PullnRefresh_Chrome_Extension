@@ -1,0 +1,1 @@
+window.addEventListener('wheel', e => e.deltaY < -180 && e.deltaY > -190 ? document.location.reload() : true)
